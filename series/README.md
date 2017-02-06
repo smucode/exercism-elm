@@ -1,6 +1,6 @@
 # Series
 
-Write a program that will take a string of digits and give you all the contiguous substrings of length `n` in that string.
+Given a string of digits, output all the contiguous substrings of length `n` in that string.
 
 For example, the string "49142" has the following 3-digit series:
 
@@ -19,11 +19,25 @@ whatever you get.
 Note that these series are only required to occupy *adjacent positions*
 in the input; the digits need not be *numerically consecutive*.
 
-## Getting Started
+## Elm Installation
 
-To get started, please see docs on exercism.io:
+Refer to the [Exercism help page](http://exercism.io/languages/elm) for Elm
+installation and learning resources.
 
-http://exercism.io/languages/elm
+## Writing the Code
+
+The first time you start an exercise, you'll need to ensure you have the
+appropriate dependencies installed.
+
+```bash
+$ npm install
+```
+
+Execute the tests with:
+
+```bash
+$ npm test
+```
 
 ## Source
 

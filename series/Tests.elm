@@ -1,6 +1,6 @@
 port module Main exposing (..)
 
-import Test.Runner.Node exposing (run)
+import Test.Runner.Node exposing (run, TestProgram)
 import Json.Encode exposing (Value)
 import Test exposing (..)
 import Expect
@@ -45,7 +45,7 @@ tests =
         ]
 
 
-main : Test.Runner.Node.TestProgram
+main : TestProgram
 main =
     run emit tests
 
